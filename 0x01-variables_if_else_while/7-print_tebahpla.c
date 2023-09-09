@@ -5,14 +5,14 @@
 /**
 * Main - Entry point
 *
-* Return: Always 0 (Sucess)
+* Return: Always 0 (Success)
 */
 
 int main(void)
 {
-int i;
-for (i = 0; i < 10; i++)
-printf("%d", i);
-printf("\n");
+char low;
+for (low = 'z'; low >= 'a'; low--)
+putchar(low);
+putchar('\n');
 return (0);
 }
