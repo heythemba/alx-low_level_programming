@@ -2,7 +2,7 @@
 #include "main.h"
 /*
 * main - print _putchar
-* is written by mbah
+* This is haythem work
 * Return: 0 (Void)
 */
 
