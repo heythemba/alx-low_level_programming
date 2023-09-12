@@ -1,7 +1,6 @@
-
 #include "main.h"
 /*
-* main - print _putchar
+* main - Entrey point (putchar)
 * This is haythem work
 * Return: 0 (Void)
 */
