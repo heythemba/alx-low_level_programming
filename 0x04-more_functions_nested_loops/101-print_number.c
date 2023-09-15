@@ -4,9 +4,11 @@
 * print_number - prints an integer
 * @n: integer to be print
 */
+
 void print_number(int n)
 {
 	unsigned int n1;
+
 	if (n < 0)
 	{
 		n1 = -n;
