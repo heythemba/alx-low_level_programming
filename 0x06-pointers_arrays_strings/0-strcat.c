@@ -1,9 +1,14 @@
-nclude <stdio.h>
+#include "main.h"
 /**
- * 
+ * _strcat - concatenates two strings
+ * @dest: input value
+ * @src: input value
+ *
+ * Return: void
  */
+
 char *_strcat(char *dest, const char *src) {
-	char *result = dest;    
+	char *result = dest;
 	while (*dest != '\0') {
 		dest++;
 	}
