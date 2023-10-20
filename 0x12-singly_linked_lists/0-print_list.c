@@ -23,15 +23,15 @@ int _strlen(char *s)
  *
  * Return: size of list
  */
-size_t print_list(const list_t *f)
+size_t print_list(const list_t *h)
 {
 	size_t check_len = 0;
 
-	while (f)
+	while (h)
 	{
-		printf("[%d] %s\n", _strlen(f->str), f->str ? f->str : "(nil)");
-		f = f->next;
-		i++;
+		printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
+		h = h->next;
+		check_len++;
 	}
 	return (check_len);
 }
