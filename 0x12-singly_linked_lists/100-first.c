@@ -1,7 +1,7 @@
 #include "list.h"
 
 /**
- * pre_main_function - Function that prints 
+ * pre_main_function - Function that prints
  * before the main function is executed
  *
  * Return: Nothing
