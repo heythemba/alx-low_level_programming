@@ -1,14 +1,15 @@
 #include "list.h"
 
 /**
- * pre_main_function - Function that prints before the main function is executed
+ * pre_main_function - Function that prints 
+ * before the main function is executed
  *
  * Return: Nothing
  */
 void __attribute__ ((constructor)) pre_main_function(void)
 {
-	    printf("You're beat! and yet, you must allow,\n");
-	        printf("I bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my back!\n");
 }
 
 /**
@@ -18,6 +19,6 @@ void __attribute__ ((constructor)) pre_main_function(void)
  */
 int main(void)
 {
-	    printf("Main function executed!\n");
-	        return (0);
+	printf("Main function executed!\n");
+	return (0);
 }
