@@ -7,10 +7,10 @@
  *
  * Return: number bytes read/printed
  */
-size_of_t read_textfile(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
-	size_of_t bytes;
+	ssize_t bytes;
 	char buf[READ_BUF_SIZE * 8];
 
 	if (!filename || !letters)
